@@ -61,13 +61,13 @@ Due to non-availability of powerful compute on Google Colab, we chose to train a
 
 ## Major Components Implemented
 
-- **Vision Transformer** implemented *from scratch* which includes Multihead Attention, FeedForward, Transformer and Classification Head module
-- **Hybrid Variant of Vision Transformer** with Pretrained ResNet features as input to the Transformer
-- **Modular ResNet** implemented *from scratch* (ResNet34, ResNet50)
-- **Pretrained Vision Transformer** using [external code](https://github.com/jeonsworld/ViT-pytorch) to verify results from the paper   
-- **Attention Map Visualization** on input images
-- Visualization of *Filter Embeddings*
-- Visualization of *Position Embeddings*
+- **Vision Transformer** implemented *from scratch* which includes Multihead Attention, FeedForward, Transformer and Classification Head module ([VisionTransformer.ipynb](VisionTransformer.ipynb))
+- **Hybrid Variant of Vision Transformer** with Pretrained ResNet features as input to the Transformer ([VisionTransformer.ipynb](VisionTransformer.ipynb))
+- **Modular ResNet** implemented *from scratch* (ResNet34, ResNet50) ([VisionTransformer.ipynb](VisionTransformer.ipynb))
+- **Pretrained Vision Transformer** using [external code](https://github.com/jeonsworld/ViT-pytorch) to verify results from the paper ([PretrainedVisionTransformer.ipynb](Pretrained_ViT_Final.ipynb))   
+- **Attention Map Visualization** on input images ([PretrainedVisionTransformer.ipynb](Pretrained_ViT_Final.ipynb))
+- Visualization of *Filter Embeddings* ([PretrainedVisionTransformer.ipynb](Pretrained_ViT_Final.ipynb))
+- Visualization of *Position Embeddings* ([PretrainedVisionTransformer.ipynb](Pretrained_ViT_Final.ipynb))
 
 
 ## Results
@@ -116,7 +116,7 @@ Due to non-availability of powerful compute on Google Colab, we chose to train a
 
 ## Presentation
 
-Presentation can be accessed [here](docs/Presentation.pptx)
+Presentation can be accessed [here](docs/Presentation.pptx).
 
 
 ## Group Members
@@ -130,5 +130,5 @@ Presentation can be accessed [here](docs/Presentation.pptx)
 
 ## References
 
-- [Paper](docs/an_image_is_worth_16x16_words_transformers_for_image_recognition_at_scale.pdf)
+- [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](docs/an_image_is_worth_16x16_words_transformers_for_image_recognition_at_scale.pdf) (Paper)
 - Eunkwang Jeon, ViT-pytorch (2020), [GitHub repository](https://github.com/jeonsworld/ViT-pytorch)
