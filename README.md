@@ -134,3 +134,4 @@ Presentation can be accessed [here](docs/Presentation.pptx).
 
 - [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](docs/an_image_is_worth_16x16_words_transformers_for_image_recognition_at_scale.pdf) (Paper)
 - Eunkwang Jeon, ViT-pytorch (2020), [GitHub repository](https://github.com/jeonsworld/ViT-pytorch)
+- [A Visual Guide to Vision Transformers](https://news.ycombinator.com/item?id=40051975)
